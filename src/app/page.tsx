@@ -186,13 +186,13 @@ export default function HomePage() {
             Se connecter
           </Button>
           
-          <Button 
+          {/* <Button 
             onClick={() => router.push('/auth/register')}
             variant="outline" 
             className="w-full h-12 text-lg font-semibold border-2 touch-target"
           >
             Créer un compte
-          </Button>
+          </Button> */}
         </div>
 
         {/* PWA Install Hint */}
