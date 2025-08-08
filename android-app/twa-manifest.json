@@ -22,7 +22,26 @@
   },
   "appVersionName": "1",
   "appVersionCode": 1,
-  "shortcuts": [],
+  "shortcuts": [
+    {
+      "name": "Nouvelle Transaction",
+      "shortName": "Transaction",
+      "url": "https://gestion-budget-rho.vercel.app/transactions/add",
+      "chosenIconUrl": "https://gestion-budget-rho.vercel.app/icons/shortcut-transaction.png"
+    },
+    {
+      "name": "Mes Épargnes",
+      "shortName": "Épargne",
+      "url": "https://gestion-budget-rho.vercel.app/savings",
+      "chosenIconUrl": "https://gestion-budget-rho.vercel.app/icons/shortcut-savings.png"
+    },
+    {
+      "name": "Rapports",
+      "shortName": "Stats",
+      "url": "https://gestion-budget-rho.vercel.app/reports",
+      "chosenIconUrl": "https://gestion-budget-rho.vercel.app/icons/shortcut-reports.png"
+    }
+  ],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://gestion-budget-rho.vercel.app/manifest.json",
   "fallbackType": "customtabs",
