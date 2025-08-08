@@ -22,7 +22,7 @@ const withPWA = require('next-pwa')({
 
 const nextConfig: NextConfig = {
   
-  // Blocage desktop - redirection vers page d'information
+  // Temporairement désactivé pour Bubblewrap
   // async redirects() {
   //   return [
   //     {
