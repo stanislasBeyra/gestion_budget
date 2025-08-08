@@ -10,38 +10,19 @@
   "navigationColorDark": "#000000",
   "navigationDividerColor": "#000000",
   "navigationDividerColorDark": "#000000",
-  "backgroundColor": "#FFFFFF",
+  "backgroundColor": "#059669",
   "enableNotifications": true,
   "startUrl": "/",
-  "iconUrl": "https://gestion-budget-rho.vercel.app/icons/icon-512x512.png",
-  "maskableIconUrl": "https://gestion-budget-rho.vercel.app/icons/icon-512x512.png",
+  "iconUrl": "https://gestion-budget-rho.vercel.app/icons/android-launchericon-512-512.png",
+  "maskableIconUrl": "https://gestion-budget-rho.vercel.app/icons/android-launchericon-512-512.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
-    "path": "/Users/macbookpro/Desktop/Beyra_Linux/budget-pwa/android.keystore",
+    "path": "/Users/macbookpro/Desktop/Beyra_Linux/budget-pwa/android-app/android.keystore",
     "alias": "android"
   },
   "appVersionName": "1",
   "appVersionCode": 1,
-  "shortcuts": [
-    {
-      "name": "Nouvelle Transaction",
-      "shortName": "Transaction",
-      "url": "https://gestion-budget-rho.vercel.app/transactions/add",
-      "chosenIconUrl": "https://gestion-budget-rho.vercel.app/icons/shortcut-transaction.png"
-    },
-    {
-      "name": "Mes Épargnes",
-      "shortName": "Épargne",
-      "url": "https://gestion-budget-rho.vercel.app/savings",
-      "chosenIconUrl": "https://gestion-budget-rho.vercel.app/icons/shortcut-savings.png"
-    },
-    {
-      "name": "Rapports",
-      "shortName": "Stats",
-      "url": "https://gestion-budget-rho.vercel.app/reports",
-      "chosenIconUrl": "https://gestion-budget-rho.vercel.app/icons/shortcut-reports.png"
-    }
-  ],
+  "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://gestion-budget-rho.vercel.app/manifest.json",
   "fallbackType": "customtabs",
