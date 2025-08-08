@@ -1,0 +1,120 @@
+{
+  "name": "Budget Manager - Gestion Financière",
+  "short_name": "Budget",
+  "description": "Application mobile de gestion de budget personnel avec épargne intelligente",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "productivity", "lifestyle"],
+  "lang": "fr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png", 
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128", 
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png", 
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle Transaction",
+      "short_name": "Transaction",
+      "description": "Ajouter une nouvelle transaction rapidement",
+      "url": "/transactions/add",
+      "icons": [
+        {
+          "src": "/icons/shortcut-transaction.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Mes Épargnes",
+      "short_name": "Épargne", 
+      "description": "Voir mes objectifs d'épargne",
+      "url": "/savings",
+      "icons": [
+        {
+          "src": "/icons/shortcut-savings.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Rapports",
+      "short_name": "Stats",
+      "description": "Consulter mes statistiques financières",
+      "url": "/reports",
+      "icons": [
+        {
+          "src": "/icons/shortcut-reports.png", 
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-dashboard.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Dashboard principal avec vue d'ensemble financière"
+    },
+    {
+      "src": "/images/screenshot-transactions.png", 
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Liste des transactions avec actions rapides"
+    }
+  ]
+}
