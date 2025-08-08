@@ -23,22 +23,22 @@ const withPWA = require('next-pwa')({
 const nextConfig: NextConfig = {
   
   // Blocage desktop - redirection vers page d'information
-  async redirects() {
-    return [
-      {
-        source: '/((?!mobile-only|api|_next|favicon.ico).*)',
-        has: [
-          {
-            type: 'header',
-            key: 'user-agent',
-            value: '(?!.*Mobile)(?!.*Android)(?!.*iPhone).*'
-          }
-        ],
-        destination: '/mobile-only',
-        permanent: false
-      }
-    ];
-  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/((?!mobile-only|api|_next|favicon.ico).*)',
+  //       has: [
+  //         {
+  //           type: 'header',
+  //           key: 'user-agent',
+  //           value: '(?!.*Mobile)(?!.*Android)(?!.*iPhone).*'
+  //         }
+  //       ],
+  //       destination: '/mobile-only',
+  //       permanent: false
+  //     }
+  //   ];
+  // },
   
   // Headers pour PWA
   async headers() {
