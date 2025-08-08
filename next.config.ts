@@ -21,24 +21,16 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig: NextConfig = {
+  // Configuration Turbopack pour résoudre les conflits
+  turbopack: {
+    resolveAlias: {
+      // Alias pour résoudre les modules PWA
+    },
+    resolveExtensions: ['.tsx', '.ts', '.jsx', '.js', '.mjs', '.json']
+  },
   
-  // Temporairement désactivé pour Bubblewrap
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: '/((?!mobile-only|api|_next|favicon.ico).*)',
-  //       has: [
-  //         {
-  //           type: 'header',
-  //           key: 'user-agent',
-  //           value: '(?!.*Mobile)(?!.*Android)(?!.*iPhone).*'
-  //         }
-  //       ],
-  //       destination: '/mobile-only',
-  //       permanent: false
-  //     }
-  //   ];
-  // },
+  // Configuration pour les origines autorisées en développement
+  allowedDevOrigins: ['192.168.100.5', 'localhost'],
   
   // Headers pour PWA
   async headers() {
